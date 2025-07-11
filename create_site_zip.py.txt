@@ -1,3 +1,10 @@
+vinayvns205 (repo root)/
+├── index.html      ← Move here
+├── about.html
+├── portfolio.html
+├── contact.html
+├── style.css
+└── images/         ← IF you have images
 import zipfile
 
 files = {
