@@ -1,0 +1,64 @@
+import zipfile
+
+files = {
+    "index.html": """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vinay Sharma | Art Photographer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Vinay Sharma</h1>
+    <p>Indian-American Art Photographer 🇮🇳 🇺🇸</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>
+        I am an art photographer exploring minimalism, abstraction, and stillness through my lens.
+        Discover the quiet power of visual poetry in my work.
+      </p>
+      <p><a href="portfolio.html">→ View My Portfolio</a></p>
+    </section>
+  </main>
+  <footer>&copy; 2025 Vinay Sharma</footer>
+</body>
+</html>""",
+    "portfolio.html": """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio | Vinay Sharma</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Vinay Sharma</h1>
+    <p>Indian-American Art Photographer 🇮🇳 🇺🇸</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <a href="images/photo1.jpg" data-lightbox="gallery"><img src="images/photo1.jpg" alt="Photo 1"></a>
+        <a href="images/photo2.jpg" data-lightbox="gallery"><img src="images/photo2.jpg" alt="Photo 2"></a>
+        <a href="images/photo3.jpg" data-lightbox="gallery"><img src="images/photo3.jpg" alt="Photo 3"></a>
+        <a href="images/photo4.jpg" data-lightbox="gallery"><img src="images/photo4.jpg" alt="Photo 4"></a>
+      </div>
+    </section>
+  </main>
